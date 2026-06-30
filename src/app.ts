@@ -1,5 +1,6 @@
 import express from "express";
 import { router } from "./routes/routes";
+import cors from "cors";
 
 
 export function createApp(){
@@ -9,6 +10,8 @@ export function createApp(){
 
     // config rotas prefixo
     app.use("/api", router);
+
+    app.use(cors())
     
     return app;
 }
