@@ -1,7 +1,8 @@
 # ⚽ API Champions
-![Node.js](https://img.shields.io/badge/Node.js-22.x-339933?logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
-![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-FF6C37?style=for-the-badge)
 
 > API REST para gerenciamento de jogadores e clubes da Champions League, desenvolvida com **Node.js**, **Express** e **TypeScript**, aplicando arquitetura em camadas para organização e escalabilidade do projeto.
 
@@ -39,7 +40,7 @@ src/
 ├── repositories/
 ├── routes/
 ├── services/
-│── utils/
+├── utils/
 │
 ├── app.ts
 └── server.ts
